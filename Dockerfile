@@ -1,5 +1,5 @@
 #FROM bigdata-docker-compose_master:latest
-FROM panovvv/hadoop-hive-spark:2.4
+FROM panovvv/hadoop-hive-spark:2.5
 
 ARG LIVY_VERSION=0.7.0-incubating
 ENV LIVY_HOME /usr/livy
